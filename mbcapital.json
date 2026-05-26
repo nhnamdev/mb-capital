@@ -1,0 +1,270 @@
+{
+  "source": "https://mbcapital.com.vn",
+  "extracted_at": "2026-05-25",
+  "company": {
+    "name": "MB Capital",
+    "tagline": {
+      "vi": "Đầu tư thông minh cho Tương lai Thịnh vượng",
+      "en": "Smart investment for a Prosperous future"
+    },
+    "address": "Tầng 12, tòa nhà số 21 Cát Linh, Phường Ô Chợ Dừa, Hà Nội",
+    "tel": "1900 23 24 25",
+    "fax": "(84 24) 3726 2810",
+    "copyright": "Copyright 2021 MBCapital. All rights reserved"
+  },
+  "investor_types": [
+    {
+      "label": "Nhà đầu tư mới",
+      "description": "Tôi muốn tham gia đầu tư",
+      "url": "https://mbcapital.com.vn/nha-dau-tu-moi"
+    },
+    {
+      "label": "Nhà Đầu tư chuyên nghiệp",
+      "description": "Tôi muốn tìm kiếm cơ hội đầu tư",
+      "url": "https://mbcapital.com.vn/nha-dau-tu-chuyen-nghiep"
+    },
+    {
+      "label": "Khách hàng",
+      "description": "Tôi là khách hàng của MB Capital",
+      "url": "https://online.mbcapital.com.vn/sso/login"
+    }
+  ],
+  "funds": [
+    {
+      "code": "MBAM",
+      "full_name": "Quỹ đầu tư trái phiếu Dòng tiền linh hoạt MB",
+      "description": "Đầu tư an toàn, sinh lời hiệu quả với lợi nhuận kỳ vọng lên tới 5.8%/năm",
+      "expected_return_pct_per_year": 5.8,
+      "nav": {
+        "value": 11.109,
+        "currency": "VND"
+      },
+      "url": "https://mbcapital.com.vn/quan-ly-quy/MBAM"
+    },
+    {
+      "code": "BMFF",
+      "full_name": "Quỹ đầu tư tăng trưởng BORDIER - MB FLAGSHIP",
+      "description": "Quỹ đầu tư mang tiêu chuẩn quốc tế với lợi nhuận kỳ vọng lên tới 20%/năm",
+      "expected_return_pct_per_year": 20,
+      "nav": {
+        "value": 16.259,
+        "currency": "VND"
+      },
+      "url": "https://mbcapital.com.vn/quan-ly-quy/BMFF"
+    },
+    {
+      "code": "MBVF",
+      "full_name": "Quỹ đầu tư giá trị MB Capital",
+      "description": "Trải nghiệm đầu tư, sinh lời vượt trội với lợi nhuận kỳ vọng lên đến 15%/năm",
+      "expected_return_pct_per_year": 15,
+      "nav": {
+        "value": 27.716,
+        "currency": "VND"
+      },
+      "url": "https://mbcapital.com.vn/quan-ly-quy/MBVF"
+    },
+    {
+      "code": "MBBOND",
+      "full_name": "Quỹ đầu tư Trái phiếu MB",
+      "description": "Đầu tư an toàn, sinh lời hiệu quả với lợi nhuận kỳ vọng lên tới 8%/năm",
+      "expected_return_pct_per_year": 8,
+      "nav": {
+        "value": 16.397,
+        "currency": "VND"
+      },
+      "url": "https://mbcapital.com.vn/quan-ly-quy/MBBOND"
+    },
+    {
+      "code": "AN_THINH",
+      "full_name": "Hưu trí An Thịnh",
+      "category": "Chương trình hưu trí",
+      "description": "Chế độ phúc lợi hiệu quả cho doanh nghiệp để đãi ngộ nguồn nhân lực, bổ sung thu nhập cho người lao động khi về hưu",
+      "nav": [
+        { "sub_fund": "Quỹ An Khang", "value": 11.969, "currency": "VND" },
+        { "sub_fund": "Quỹ Thịnh Vượng", "value": 11.877, "currency": "VND" }
+      ],
+      "url": "https://mbcapital.com.vn/quan-ly-quy/quy-mb-huu-tri-an-thinh"
+    },
+    {
+      "code": "RVCF",
+      "full_name": "Quỹ đầu tư Rhodium Venture Capital (RVCF)",
+      "description": "",
+      "nav": {
+        "value": 0,
+        "currency": "VND"
+      },
+      "url": "https://mbcapital.com.vn/quan-ly-quy/RVCF"
+    },
+    {
+      "code": "MBVF-SIP",
+      "full_name": "Đầu tư định kỳ MBVF",
+      "description": "Tương lai trong tầm tay - Sở hữu 15 tỷ khi về hưu?",
+      "nav": null,
+      "url": "https://mbcapital.com.vn/quan-ly-quy/MBVF-SIP"
+    },
+    {
+      "code": "JAMBF",
+      "full_name": "Quỹ đầu tư JAPAN ASIA MB CAPITAL",
+      "description": "",
+      "nav": null,
+      "url": "https://mbcapital.com.vn/quan-ly-quy/JAMBF"
+    },
+    {
+      "code": "MB_CAPITAL_PRIVATE",
+      "full_name": "MB Capital Private",
+      "category": "Ủy thác đầu tư",
+      "description": "Gửi trọn niềm tin, tài chính thịnh vượng với danh mục đầu tư chuyên biệt theo từng khách hàng",
+      "nav": null,
+      "url": "https://mbcapital.com.vn/uy-thac-dau-tu-ca-nhan"
+    }
+  ],
+  "investment_steps": [
+    {
+      "step": 1,
+      "title": "Tư vấn",
+      "description": "Nhà đầu tư liên hệ trực tiếp với MB Capital hoặc các Đại lý phân phối để được hỗ trợ"
+    },
+    {
+      "step": 2,
+      "title": "Mở tài khoản",
+      "description": "Nhà đầu tư thực hiện mở tài khoản qua App MB BANK hoặc qua Website MBCapital Online",
+      "links": {
+        "mb_bank_app": "https://go.onelink.me/QPF5/ba375e38",
+        "mbcapital_online": "https://online.mbcapital.com.vn/"
+      }
+    },
+    {
+      "step": 3,
+      "title": "Đặt lệnh",
+      "description": "Đặt lệnh trực tuyến qua App MB BANK hoặc qua Website MBCapital Online"
+    },
+    {
+      "step": 4,
+      "title": "Chuyển tiền mua",
+      "description": "Nhà đầu tư chuyển tiền mua chứng chỉ quỹ theo hướng dẫn"
+    },
+    {
+      "step": 5,
+      "title": "Xác nhận",
+      "description": "Nhận SMS và Email xác nhận lệnh đặt thành công"
+    }
+  ],
+  "advisory_form_topics": [
+    { "id": 68, "label": "Tôi cần tìm hiểu thêm về MBBOND" },
+    { "id": 69, "label": "Tôi cần tìm hiểu thêm về MBVF" },
+    { "id": 70, "label": "Tôi cần tìm hiểu thêm về đầu tư định kỳ MBVF (SIP)" },
+    { "id": 71, "label": "Tôi cần tìm hiểu thêm về Uỷ thác đầu tư cho cá nhân" },
+    { "id": 72, "label": "Doanh nghiệp tôi cần tìm hiểu về Hưu trí An Thịnh" },
+    { "id": 73, "label": "Doanh nghiệp tôi cần tìm hiểu về Uỷ thác đầu tư cho tổ chức" }
+  ],
+  "navigation": {
+    "top_bar": [
+      { "label": "Về MBCapital", "url": "https://mbcapital.com.vn/about-us-general-introduction" },
+      { "label": "Tin tức", "url": "https://mbcapital.com.vn/tin-tuc" },
+      { "label": "Liên hệ", "url": "https://mbcapital.com.vn/lien-he" },
+      { "label": "EN", "url": "https://mbcapital.com.vn/lang/en" },
+      { "label": "Tìm kiếm", "url": "https://mbcapital.com.vn/tim-kiem" }
+    ],
+    "main_menu": [
+      {
+        "label": "Quản lý quỹ",
+        "url": "https://mbcapital.com.vn/quan-ly-quy-dau-tu",
+        "children": [
+          { "label": "Quỹ đầu tư trái phiếu Dòng tiền linh hoạt MB (MBAM)", "url": "https://mbcapital.com.vn/quan-ly-quy/MBAM" },
+          { "label": "Quỹ đầu tư tăng trưởng BORDIER - MB FLAGSHIP (BMFF)", "url": "https://mbcapital.com.vn/quan-ly-quy/BMFF" },
+          { "label": "Quỹ đầu tư giá trị MB CAPITAL (MBVF)", "url": "https://mbcapital.com.vn/quan-ly-quy/MBVF" },
+          { "label": "Quỹ đầu tư trái phiếu MB (MBBOND)", "url": "https://mbcapital.com.vn/quan-ly-quy/MBBOND" },
+          { "label": "Chương trình hưu trí An Thịnh", "url": "https://mbcapital.com.vn/quan-ly-quy/quy-mb-huu-tri-an-thinh" },
+          { "label": "Quỹ đầu tư Rhodium Venture Capital (RVCF)", "url": "https://mbcapital.com.vn/quan-ly-quy/RVCF" },
+          { "label": "Quỹ đầu tư JAPAN ASIA MB CAPITAL (JAMBF)", "url": "https://mbcapital.com.vn/quan-ly-quy/JAMBF" }
+        ]
+      },
+      {
+        "label": "Ủy thác đầu tư",
+        "children": [
+          { "label": "Khách hàng Cá nhân", "url": "https://mbcapital.com.vn/uy-thac-dau-tu-ca-nhan" },
+          { "label": "Khách hàng Tổ chức", "url": "https://mbcapital.com.vn/uy-thac-dau-tu-to-chuc" }
+        ]
+      },
+      {
+        "label": "Quan hệ nhà đầu tư",
+        "url": "https://mbcapital.com.vn/quan-he-dau-tu"
+      },
+      {
+        "label": "Hỗ trợ khách hàng",
+        "children": [
+          { "label": "Kiến thức đầu tư", "url": "https://mbcapital.com.vn/kien-thuc-dau-tu" },
+          { "label": "Công cụ hỗ trợ", "url": "https://mbcapital.com.vn/cong-cu-ho-tro" },
+          { "label": "Hướng dẫn đầu tư", "url": "https://mbcapital.com.vn/huong-dan-su-dung" },
+          { "label": "FAQ", "url": "https://mbcapital.com.vn/faq" }
+        ]
+      },
+      {
+        "label": "Đăng nhập",
+        "url": "https://online.mbcapital.com.vn/sso/login"
+      },
+      {
+        "label": "Mở tài khoản",
+        "url": "https://online.mbcapital.com.vn/createaccount?language=vie"
+      }
+    ],
+    "footer": {
+      "Về MBCapital": [
+        { "label": "Giới thiệu", "url": "https://mbcapital.com.vn/about-us-general-introduction" },
+        { "label": "Đội ngũ nhân sự", "url": "https://mbcapital.com.vn/about-us-general-introduction?activeTab=employee" },
+        { "label": "Quan hệ nhà đầu tư", "url": "https://mbcapital.com.vn/about-us-general-introduction?activeTab=investor" },
+        { "label": "Môi trường làm việc", "url": "https://mbcapital.com.vn/tuyen-dung" },
+        { "label": "Tin tức", "url": "https://mbcapital.com.vn/tin-tuc" }
+      ],
+      "Quản lý quỹ": [
+        { "label": "Quỹ MBAM", "url": "https://mbcapital.com.vn/quan-ly-quy/MBAM" },
+        { "label": "Quỹ BORDIER", "url": "https://mbcapital.com.vn/quan-ly-quy/BMFF" },
+        { "label": "Quỹ MBVF", "url": "https://mbcapital.com.vn/quan-ly-quy/MBVF" },
+        { "label": "Quỹ MBBOND", "url": "https://mbcapital.com.vn/quan-ly-quy/MBBOND" },
+        { "label": "Hưu trí An Thịnh", "url": "https://mbcapital.com.vn/quan-ly-quy/quy-mb-huu-tri-an-thinh" },
+        { "label": "RVCF", "url": "https://mbcapital.com.vn/quan-ly-quy/RVCF" },
+        { "label": "Quỹ JAMBF", "url": "https://mbcapital.com.vn/quan-ly-quy/JAMBF" }
+      ],
+      "Ủy thác đầu tư": [
+        { "label": "Khách hàng Cá nhân", "url": "https://mbcapital.com.vn/uy-thac-dau-tu-ca-nhan" },
+        { "label": "Khách hàng Tổ chức", "url": "https://mbcapital.com.vn/uy-thac-dau-tu-to-chuc" },
+        { "label": "TK Siêu lãi ngày", "url": null }
+      ],
+      "Quan hệ nhà đầu tư": [
+        { "label": "Quỹ MBAM", "url": "https://mbcapital.com.vn/quan-ly-quy/MBAM" },
+        { "label": "Quỹ BORDIER", "url": "https://mbcapital.com.vn/quan-ly-quy/BMFF" },
+        { "label": "Quỹ MBVF", "url": "https://mbcapital.com.vn/quan-ly-quy/MBVF" },
+        { "label": "Quỹ MBBOND", "url": "https://mbcapital.com.vn/quan-ly-quy/MBBOND" },
+        { "label": "Hưu trí An Thịnh", "url": "https://mbcapital.com.vn/quan-ly-quy/quy-mb-huu-tri-an-thinh" },
+        { "label": "RVCF", "url": "https://mbcapital.com.vn/quan-ly-quy/RVCF" }
+      ],
+      "Hỗ trợ khách hàng": [
+        { "label": "Kiến thức đầu tư", "url": "https://mbcapital.com.vn/kien-thuc-dau-tu" },
+        { "label": "Công cụ hỗ trợ", "url": "https://mbcapital.com.vn/cong-cu-ho-tro" },
+        { "label": "Hướng dẫn đầu tư", "url": "https://mbcapital.com.vn/huong-dan-su-dung" },
+        { "label": "FAQ", "url": "https://mbcapital.com.vn/faq" }
+      ],
+      "Liên kết MB GROUP": [
+        { "label": "MB BANK", "url": null }
+      ]
+    }
+  },
+  "homepage_highlighted_options": [
+    {
+      "code": "RVCF",
+      "label": "Quỹ đầu tư Rhodium Venture Capital (RVCF)",
+      "nav": { "value": 0, "currency": "VND" }
+    },
+    {
+      "code": "MBVF-SIP",
+      "label": "Đầu tư định kỳ MBVF",
+      "tagline": "Tương lai trong tầm tay - Sở hữu 15 tỷ khi về hưu?"
+    },
+    {
+      "code": "MB_CAPITAL_PRIVATE",
+      "label": "MB Capital Private",
+      "category": "Ủy thác đầu tư",
+      "description": "Gửi trọn niềm tin, tài chính thịnh vượng với danh mục đầu tư chuyên biệt theo từng khách hàng"
+    }
+  ]
+}

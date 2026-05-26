@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết Quỹ - MB Capital</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <section id="topbar">
+    <div class="container d-flex justify-content-center justify-content-md-between h-100">
+      <div class="contact-info d-flex align-items-center"></div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <div class="mr-3"><a href="#"><img src="../assets/icon/search-op1.svg" alt="search"></a></div>
+        <div class="mr-3"><a href="about.html">Về MBCapital</a></div>
+        <div style="border-left: 1px solid #E5E5E5; height: 15px;"></div>
+        <div class="mr-3 ml-3"><a href="#">Tin tức</a></div>
+        <div style="border-left: 1px solid #E5E5E5; height: 15px;"></div>
+        <div class="mr-4 ml-3"><a href="contact.html">Liên hệ</a></div>
+        <div class="transt-EN ml-3"><a href="#"><img style="width: 28px;height: 20px" src="../assets/icon/EN.png" alt="EN"></a></div>
+      </div>
+    </div>
+  </section>
+
+  <header id="header">
+    <div class="container d-flex align-items-center justify-content-between" style="height:100%">
+      <div class="logo"><a href="../index.html"><img src="../assets/img/logo.png" alt="MB Capital"></a></div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href="#"><span>Quản lý quỹ</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="fund-detail.html?code=MBAM">Quỹ MBAM</a></li>
+              <li><a href="fund-detail.html?code=BMFF">Quỹ BORDIER - MB FLAGSHIP</a></li>
+              <li><a href="fund-detail.html?code=MBVF">Quỹ MBVF</a></li>
+              <li><a href="fund-detail.html?code=MBBOND">Quỹ MBBOND</a></li>
+              <li><a href="fund-detail.html?code=AN_THINH">Hưu trí An Thịnh</a></li>
+              <li><a href="fund-detail.html?code=RVCF">RVCF</a></li>
+              <li><a href="fund-detail.html?code=JAMBF">Quỹ JAMBF</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Ủy thác đầu tư</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Khách hàng Cá nhân</a></li>
+              <li><a href="#">Khách hàng Tổ chức</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Quan hệ nhà đầu tư</a></li>
+          <li class="dropdown"><a href="#"><span>Hỗ trợ khách hàng</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Kiến thức đầu tư</a></li>
+              <li><a href="#">Công cụ hỗ trợ</a></li>
+              <li><a href="#">Hướng dẫn đầu tư</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" href="#"><span class="btn custom-btn-op1 custom-btn-op1-outline">Đăng nhập</span></a></li>
+          <li><a class="nav-link" href="#"><span class="btn custom-btn-op1 custom-btn-op1-fullfill">Mở tài khoản</span></a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sub Hero -->
+  <section class="sub-hero">
+    <div class="container">
+      <h1 id="fundHeroName">Chi tiết Quỹ</h1>
+      <div class="breadcrumb-cust">
+        <a href="../index.html">Trang chủ</a> &raquo;
+        <a href="#">Quản lý quỹ</a> &raquo;
+        <span id="fundHeroCode">Quỹ đầu tư</span>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <div class="container fund-detail">
+
+      <div class="fund-header">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <div class="code" id="fundCode">CODE</div>
+            <h2 id="fundFullName">Tên quỹ</h2>
+            <p id="fundDescription" class="mb-0" style="color: rgba(255,255,255,.8);"></p>
+          </div>
+          <div class="col-md-5 text-md-right text-center mt-3 mt-md-0">
+            <div class="nav-display justify-content-md-end justify-content-center">
+              <div>
+                <div class="nav-label">NAV/CCQ</div>
+                <div><span class="nav-value" id="fundNav">--</span> <span style="color: rgba(255,255,255,.7);">VNĐ</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <h3>Tổng quan</h3>
+          <p id="fundOverview" style="color: var(--text-muted); margin-top: 16px;">
+            Đang tải thông tin quỹ...
+          </p>
+
+          <h3>Mục tiêu đầu tư</h3>
+          <p style="color: var(--text-muted); margin-top: 16px;">
+            Tối ưu lợi nhuận dài hạn cho nhà đầu tư thông qua việc xây dựng danh mục đa dạng,
+            đầu tư vào các tài sản chất lượng và có tiềm năng tăng trưởng bền vững.
+          </p>
+
+          <h3>Thông tin quỹ</h3>
+          <table>
+            <tbody id="fundInfoTable">
+            </tbody>
+          </table>
+
+          <h3>Cơ cấu phí</h3>
+          <table>
+            <thead><tr><th>Loại phí</th><th>Mức phí</th></tr></thead>
+            <tbody>
+              <tr><td>Phí phát hành</td><td>0% - 0.75%</td></tr>
+              <tr><td>Phí mua lại</td><td>0% - 2.5% (theo thời gian nắm giữ)</td></tr>
+              <tr><td>Phí quản lý quỹ</td><td>0.75% - 1.95%/năm</td></tr>
+              <tr><td>Phí lưu ký, giám sát</td><td>~ 0.05%/năm</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-4">
+          <div style="background: #f8f9fa; padding: 24px; border-radius: 8px; margin-top: 20px;">
+            <h5 style="color: var(--primary);">Đầu tư ngay</h5>
+            <p style="font-size: 14px; color: var(--text-muted);">
+              Mở tài khoản và bắt đầu đầu tư chỉ với vài bước đơn giản.
+            </p>
+            <a href="#" class="btn custom-btn-op1 custom-btn-op1-fullfill" style="display:inline-block; margin-left:0;">Mở tài khoản</a>
+            <a href="#" class="btn custom-btn-op1 custom-btn-op1-outline mt-2" style="display:inline-block; margin-left:0;">Tải tài liệu</a>
+          </div>
+
+          <div style="background: var(--primary); color: #fff; padding: 24px; border-radius: 8px; margin-top: 16px;">
+            <h5 style="color: var(--accent);">Hỗ trợ tư vấn</h5>
+            <p style="font-size: 14px; color: rgba(255,255,255,.8); margin-bottom: 8px;">
+              <i class="bi bi-telephone"></i> 1900 23 24 25
+            </p>
+            <p style="font-size: 14px; color: rgba(255,255,255,.8); margin: 0;">
+              <i class="bi bi-envelope"></i> info@mbcapital.com.vn
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="logo"><img src="../assets/img/logo.png" alt="MB Capital"></div>
+      <div class="infor mt-4">
+        <div class="col-item">
+          <div class="head-col"><h6>Về MBCapital</h6></div>
+          <div class="horizontal"></div>
+          <div class="body-col">
+            <div class="line-item"><a href="about.html">Giới thiệu</a></div>
+            <div class="line-item"><a href="about.html#team">Đội ngũ nhân sự</a></div>
+            <div class="line-item"><a href="about.html#investor">Quan hệ nhà đầu tư</a></div>
+            <div class="line-item"><a href="#">Môi trường làm việc</a></div>
+            <div class="line-item"><a href="#">Tin tức</a></div>
+          </div>
+        </div>
+        <div class="col-item">
+          <div class="head-col"><h6>Quản lý quỹ</h6></div>
+          <div class="horizontal"></div>
+          <div class="body-col">
+            <div class="line-item"><a href="fund-detail.html?code=MBAM">Quỹ MBAM</a></div>
+            <div class="line-item"><a href="fund-detail.html?code=BMFF">Quỹ BORDIER</a></div>
+            <div class="line-item"><a href="fund-detail.html?code=MBVF">Quỹ MBVF</a></div>
+            <div class="line-item"><a href="fund-detail.html?code=MBBOND">Quỹ MBBOND</a></div>
+            <div class="line-item"><a href="fund-detail.html?code=AN_THINH">Hưu trí An Thịnh</a></div>
+            <div class="line-item"><a href="fund-detail.html?code=RVCF">RVCF</a></div>
+            <div class="line-item"><a href="fund-detail.html?code=JAMBF">Quỹ JAMBF</a></div>
+          </div>
+        </div>
+        <div class="col-item">
+          <div class="head-col"><h6>Ủy thác đầu tư</h6></div>
+          <div class="horizontal"></div>
+          <div class="body-col">
+            <div class="line-item"><a href="#">Khách hàng Cá nhân</a></div>
+            <div class="line-item"><a href="#">Khách hàng Tổ chức</a></div>
+            <div class="line-item"><a href="#">TK Siêu lãi ngày</a></div>
+          </div>
+        </div>
+        <div class="col-item">
+          <div class="head-col"><h6>Quan hệ nhà đầu tư</h6></div>
+          <div class="horizontal"></div>
+          <div class="body-col">
+            <div class="line-item"><a href="fund-detail.html?code=MBAM">Quỹ MBAM</a></div>
+            <div class="line-item"><a href="fund-detail.html?code=BMFF">Quỹ BORDIER</a></div>
+            <div class="line-item"><a href="fund-detail.html?code=MBVF">Quỹ MBVF</a></div>
+            <div class="line-item"><a href="fund-detail.html?code=MBBOND">Quỹ MBBOND</a></div>
+          </div>
+        </div>
+        <div class="col-item">
+          <div class="head-col"><h6>Hỗ trợ khách hàng</h6></div>
+          <div class="horizontal"></div>
+          <div class="body-col">
+            <div class="line-item"><a href="#">Kiến thức đầu tư</a></div>
+            <div class="line-item"><a href="#">Công cụ hỗ trợ</a></div>
+            <div class="line-item"><a href="#">Hướng dẫn đầu tư</a></div>
+            <div class="line-item"><a href="#">FAQ</a></div>
+          </div>
+        </div>
+        <div class="col-item">
+          <div class="head-col"><h6>Liên kết MB GROUP</h6></div>
+          <div class="horizontal"></div>
+          <div class="body-col">
+            <select class="form-control mb-3">
+              <option>MB BANK</option>
+              <option>MB Securities</option>
+              <option>MB Ageas Life</option>
+            </select>
+            <a href="#" class="social-circle"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-circle"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="social-circle"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="addr">
+          Tầng 12, tòa nhà số 21 Cát Linh, Phường Ô Chợ Dừa, Hà Nội &nbsp;
+          Tel: 1900 23 24 25 &nbsp;
+          Fax: (84 24) 3726 2810
+        </div>
+        <div>Copyright 2021 MBCapital. All rights reserved</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+    // Fund database
+    const FUNDS = {
+      MBAM: {
+        code: 'MBAM',
+        full_name: 'Quỹ đầu tư trái phiếu Dòng tiền linh hoạt MB',
+        description: 'Đầu tư an toàn, sinh lời hiệu quả với lợi nhuận kỳ vọng lên tới 5.8%/năm',
+        nav: '11.109',
+        overview: 'Quỹ MBAM tập trung đầu tư vào danh mục trái phiếu có thanh khoản cao và dòng tiền linh hoạt, phù hợp với nhà đầu tư ưu tiên an toàn vốn và lợi suất ổn định.',
+        type: 'Quỹ mở trái phiếu',
+        established: '2018',
+        currency: 'VND',
+        nav_freq: 'Hàng ngày'
+      },
+      BMFF: {
+        code: 'BMFF',
+        full_name: 'Quỹ đầu tư tăng trưởng BORDIER - MB FLAGSHIP',
+        description: 'Quỹ đầu tư mang tiêu chuẩn quốc tế với lợi nhuận kỳ vọng lên tới 20%/năm',
+        nav: '16.259',
+        overview: 'BMFF kết hợp giữa kinh nghiệm quản lý tài sản quốc tế của BORDIER và am hiểu thị trường Việt Nam của MB Capital, hướng tới lợi nhuận tăng trưởng cao.',
+        type: 'Quỹ mở cổ phiếu',
+        established: '2020',
+        currency: 'VND',
+        nav_freq: 'Hàng tuần'
+      },
+      MBVF: {
+        code: 'MBVF',
+        full_name: 'Quỹ đầu tư giá trị MB Capital',
+        description: 'Trải nghiệm đầu tư, sinh lời vượt trội với lợi nhuận kỳ vọng lên đến 15%/năm',
+        nav: '27.716',
+        overview: 'MBVF áp dụng triết lý đầu tư giá trị, lựa chọn các doanh nghiệp có nền tảng cơ bản tốt, định giá hấp dẫn và tiềm năng tăng trưởng dài hạn.',
+        type: 'Quỹ mở cổ phiếu',
+        established: '2014',
+        currency: 'VND',
+        nav_freq: 'Hàng tuần'
+      },
+      MBBOND: {
+        code: 'MBBOND',
+        full_name: 'Quỹ đầu tư Trái phiếu MB',
+        description: 'Đầu tư an toàn, sinh lời hiệu quả với lợi nhuận kỳ vọng lên tới 8%/năm',
+        nav: '16.397',
+        overview: 'MBBOND đầu tư chủ yếu vào trái phiếu chính phủ và trái phiếu doanh nghiệp uy tín, mang lại nguồn thu nhập ổn định cho nhà đầu tư.',
+        type: 'Quỹ mở trái phiếu',
+        established: '2013',
+        currency: 'VND',
+        nav_freq: 'Hàng ngày'
+      },
+      AN_THINH: {
+        code: 'HƯU TRÍ AN THỊNH',
+        full_name: 'Chương trình Hưu trí An Thịnh',
+        description: 'Chế độ phúc lợi hiệu quả cho doanh nghiệp để đãi ngộ nguồn nhân lực, bổ sung thu nhập cho người lao động khi về hưu',
+        nav: '11.969 / 11.877',
+        overview: 'Chương trình bao gồm Quỹ An Khang và Quỹ Thịnh Vượng, cung cấp giải pháp tích lũy hưu trí linh hoạt cho doanh nghiệp và người lao động.',
+        type: 'Quỹ hưu trí bổ sung tự nguyện',
+        established: '2021',
+        currency: 'VND',
+        nav_freq: 'Hàng tháng'
+      },
+      RVCF: {
+        code: 'RVCF',
+        full_name: 'Quỹ đầu tư Rhodium Venture Capital (RVCF)',
+        description: 'Cơ hội đầu tư vào các startup tiềm năng cao',
+        nav: '0',
+        overview: 'RVCF là quỹ đầu tư mạo hiểm, tập trung vào các doanh nghiệp khởi nghiệp có tiềm năng tăng trưởng đột phá ở Việt Nam và khu vực.',
+        type: 'Quỹ thành viên - Venture Capital',
+        established: '2023',
+        currency: 'VND',
+        nav_freq: 'Hàng quý'
+      },
+      JAMBF: {
+        code: 'JAMBF',
+        full_name: 'Quỹ đầu tư JAPAN ASIA MB CAPITAL',
+        description: 'Quỹ đầu tư hợp tác với đối tác Nhật Bản',
+        nav: 'N/A',
+        overview: 'JAMBF là sản phẩm hợp tác giữa MB Capital và đối tác Nhật Bản, tận dụng cơ hội đầu tư xuyên biên giới khu vực Châu Á.',
+        type: 'Quỹ thành viên',
+        established: '2022',
+        currency: 'VND',
+        nav_freq: 'Hàng quý'
+      },
+      'MBVF-SIP': {
+        code: 'MBVF-SIP',
+        full_name: 'Đầu tư định kỳ MBVF (SIP)',
+        description: 'Tương lai trong tầm tay - Sở hữu 15 tỷ khi về hưu?',
+        nav: 'N/A',
+        overview: 'Chương trình đầu tư định kỳ (Systematic Investment Plan) giúp nhà đầu tư xây dựng tài sản đều đặn qua thời gian với khoản đóng góp linh hoạt.',
+        type: 'Đầu tư định kỳ',
+        established: '2021',
+        currency: 'VND',
+        nav_freq: 'Theo lịch SIP'
+      }
+    };
+
+    function loadFund() {
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get('code') || 'MBVF';
+      const fund = FUNDS[code] || FUNDS.MBVF;
+
+      document.title = fund.full_name + ' - MB Capital';
+      document.getElementById('fundHeroName').textContent = fund.full_name;
+      document.getElementById('fundHeroCode').textContent = fund.code;
+      document.getElementById('fundCode').textContent = fund.code;
+      document.getElementById('fundFullName').textContent = fund.full_name;
+      document.getElementById('fundDescription').textContent = fund.description;
+      document.getElementById('fundNav').textContent = fund.nav;
+      document.getElementById('fundOverview').textContent = fund.overview;
+
+      const rows = [
+        ['Mã quỹ', fund.code],
+        ['Tên đầy đủ', fund.full_name],
+        ['Loại quỹ', fund.type],
+        ['Năm thành lập', fund.established],
+        ['Đồng tiền', fund.currency],
+        ['Tần suất công bố NAV', fund.nav_freq],
+        ['Công ty quản lý', 'MB Capital'],
+        ['Ngân hàng giám sát', 'Standard Chartered Bank Vietnam']
+      ];
+      document.getElementById('fundInfoTable').innerHTML =
+        rows.map(r => `<tr><th style="width:35%">${r[0]}</th><td>${r[1]}</td></tr>`).join('');
+    }
+
+    loadFund();
+  </script>
+</body>
+</html>
